@@ -31,8 +31,11 @@ now want to create new branch and copy all file and folder of master branch
 (now one branch is created on your remote repository and copied all file and folders in that branch)
 --------------------------------------------------------------------------
 --------------------------------------------------------------------------
-now want to merge master branch
---->git merge master
+want to pull origin master from repository
+go to other from master branch
+--->git pull origin master
+--->git push
+it is in special case when a team working in a same repository
 -------------------------------------------------------------------------
 -------------------------------------------------------------------------
 Use git stash when you want to record the current state of the working directory and the index, but want to go back to a clean working directory
